@@ -1,5 +1,5 @@
 import random
-user_action = "scissors"
+user_action = "rock"
 possible_actions = ["rock", "paper", "scissors"]
 computer_action = random.choice(possible_actions)
 if user_action == computer_action:
